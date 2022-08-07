@@ -1,38 +1,88 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.profile-container {
+  background-color: #f5f9fd;
+  padding: 10px;
+}
+
+h1 {
+  color: #03449e;
+  font-family: "Roboto";
+  font-size: 32px;
+}
+
+p {
+  color: #0967d2;
+  font-family: "Bree Serif";
+  font-size: 24px;
+}
+
+.designation-details-container {
+  background-color: #d0efff;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.designation-details {
+  color: #47a3f3;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+.contact-info-container {
+  background-color: #03254c;
+  padding: 10px;
+}
+
+.contact-info {
+  color: #9aa5b1;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: italic;
+}
+
+.todo-list-container {
+  background-color: #f6f5f1;
+  padding: 10px;
+}
+
+#todayHeading {
+  color: blue;
+}
+
+li {
+  font-family: "Roboto";
+  font-weight: 500;
+  padding: 10px;
+}
+
+.completed {
+  color: grey;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.language-container {
   text-align: center;
+  font-family: "Roboto";
+  padding: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blue-text {
+  color: blue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.language-description {
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#description {
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  width: 100px;
+  height: 30px;
+  border-width: 0px;
+  border-radius: 5px;
 }
